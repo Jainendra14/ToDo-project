@@ -1,0 +1,91 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+}
+.header{
+  background-color: black;
+  color: white;
+  display:block;
+  text-align: center;
+  padding: 10px;
+}
+.form{
+  text-align: center;
+  display: block;
+}
+h2{
+  text-align: center;
+  display: block;
+}
+input{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: medium;
+  
+  border: 5px solid black;
+}
+button{
+
+  padding: 10px;
+  border: 2px solid blueviolet;
+  border-radius:20px;
+  background-color: black;
+  color: white;
+
+}
+.detail{
+  background-color:black;
+  color: #ffffff;
+
+
+
+}
+.container{
+display: flex;
+justify-content: space-around;
+
+}
+.showdata{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  
+}
+h5{
+  margin-right: 120px;
+
+}
+
+.del{
+  float: right;
+  
+ 
+  font-weight: bolder;
+  margin: 10px;
+   font-weight: lighter;
+    padding: 0px 15px;
+
+}
